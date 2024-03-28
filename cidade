@@ -1,0 +1,147 @@
+UPDATE alunos
+SET 
+    cidade = CASE ID
+        WHEN 2 THEN 'Morro do Jacaré'
+        WHEN 4 THEN 'Morro do Jacaré'
+        WHEN 9 THEN 'Morro do Jacaré'
+        WHEN 17 THEN 'Morro do Jacaré'
+        WHEN 27 THEN 'Morro do Jacaré'
+        ELSE cidade
+    END,
+    Estado = CASE ID
+        WHEN 2 THEN 'RJ'
+        WHEN 4 THEN 'RJ'
+        WHEN 9 THEN 'RJ'
+        WHEN 17 THEN 'RJ'
+        WHEN 27 THEN 'RJ'
+        ELSE Estado
+    END
+WHERE ID IN (2, 4, 9, 17, 27);
+///////////////////////////////
+UPDATE alunos
+SET 
+    cidade = CASE ID
+        WHEN 1 THEN 'São Paulo'UPDATE alunos
+SET 
+    cidade = CASE ID
+        WHEN 2 THEN 'Morro do Jacaré'
+        WHEN 4 THEN 'Morro do Jacaré'
+        WHEN 9 THEN 'Morro do Jacaré'
+        WHEN 17 THEN 'Morro do Jacaré'
+        WHEN 27 THEN 'Morro do Jacaré'
+        ELSE cidade
+    END,
+    Estado = CASE ID
+        WHEN 2 THEN 'RJ'
+        WHEN 4 THEN 'RJ'
+        WHEN 9 THEN 'RJ'
+        WHEN 17 THEN 'RJ'
+        WHEN 27 THEN 'RJ'
+        ELSE Estado
+    END
+WHERE ID IN (2, 4, 9, 17, 27);
+        WHEN 3 THEN 'São Paulo'
+        WHEN 8 THEN 'São Paulo'
+        WHEN 18 THEN 'São Paulo'
+        WHEN 28 THEN 'São Paulo'
+        ELSE cidade
+    END,
+    Estado = CASE ID
+        WHEN 1 THEN 'SP'
+        WHEN 3 THEN 'SP'
+        WHEN 8 THEN 'SP'
+        WHEN 18 THEN 'SP'
+        WHEN 28 THEN 'SP'
+        ELSE Estado
+    END
+WHERE ID IN (1, 3, 8, 18, 28);
+///////////////////////////////
+UPDATE alunos
+SET 
+    cidade = CASE ID
+        WHEN 4 THEN 'Uberlândia'
+        WHEN 5 THEN 'Uberlândia'
+        WHEN 6 THEN 'Uberlândia'
+        WHEN 12 THEN 'Uberlândia'
+        WHEN 13 THEN 'Uberlândia'
+        ELSE cidade
+    END,
+    Estado = CASE ID
+        WHEN 4 THEN 'MG'
+        WHEN 5 THEN 'MG'
+        WHEN 6 THEN 'MG'
+        WHEN 12 THEN 'MG'
+        WHEN 13 THEN 'MG'
+        ELSE Estado
+    END
+WHERE ID IN (4, 5, 6, 12, 13);
+/////////////////////////////////
+UPDATE alunos
+SET 
+    cidade = CASE ID
+        WHEN 7 THEN 'Canelinha'
+        WHEN 24 THEN 'Canelinha'
+        WHEN 10 THEN 'Canelinha'
+        WHEN 11 THEN 'Canelinha'
+        WHEN 14 THEN 'Canelinha'
+        ELSE cidade
+    END,
+    Estado = CASE ID
+        WHEN 7 THEN 'SC'
+        WHEN 24 THEN 'SC'
+        WHEN 10 THEN 'SC'
+        WHEN 11 THEN 'SC'
+        WHEN 14 THEN 'SC'
+        ELSE Estado
+    END
+WHERE ID IN (7, 24, 10, 11, 14);
+//////////////////////////////////
+UPDATE alunos
+SET 
+    cidade = CASE ID
+        WHEN 15 THEN 'Astorga'
+        WHEN 16 THEN 'Astorga'
+        WHEN 19 THEN 'Astorga'
+        WHEN 20 THEN 'Astorga'
+        WHEN 21 THEN 'Astorga'
+        ELSE cidade
+    END,
+    Estado = CASE ID
+        WHEN 15 THEN 'PR'
+        WHEN 16 THEN 'PR'
+        WHEN 19 THEN 'PR'
+        WHEN 20 THEN 'PR'
+        WHEN 21 THEN 'PR'
+        ELSE Estado
+    END
+WHERE ID IN (15, 16, 19, 20, 21);
+////////////////////////////////
+UPDATE alunos
+SET 
+    cidade = CASE ID
+        WHEN 22 THEN 'Almas'
+        WHEN 23 THEN 'Almas'
+        WHEN 25 THEN 'Almas'
+        WHEN 26 THEN 'Almas'
+        WHEN 29 THEN 'Almas'
+        WHEN 30 THEN 'Almas'
+        WHEN 31 THEN 'Almas'
+        WHEN 32 THEN 'Almas'
+        WHEN 33 THEN 'Almas'
+        WHEN 34 THEN 'Almas'
+        ELSE cidade
+    END,
+    Estado = CASE ID
+        WHEN 22 THEN 'TO'
+        WHEN 23 THEN 'TO'
+        WHEN 25 THEN 'TO'
+        WHEN 26 THEN 'TO'
+        WHEN 29 THEN 'TO'
+        WHEN 30 THEN 'TO'
+        WHEN 31 THEN 'TO'
+        WHEN 32 THEN 'TO'
+        WHEN 33 THEN 'TO'
+        WHEN 34 THEN 'TO'
+        ELSE Estado
+    END
+WHERE ID IN (22, 23, 25, 26, 29, 30, 31, 32, 33, 34);
